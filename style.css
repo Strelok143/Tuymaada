@@ -8,11 +8,11 @@
   --font-family-list: monospace;
 
   /* Colors you'll see cascade through the elements */
-  --color-bg: #99ddff; /* Used for the page body background */
-  --color-bg-alt: #33b1ff; /* Used for social icons on hover */
-  --color-text-main: #004099; /* List text ann social icons on hover */
-  --color-primary: #006aff; /* Headers and borders */
-  --color-highlight: #e7f7fe; /* Highlights */
+  --color-bg: #050505; /* Used for the page body background */
+  --color-bg-alt: #ffffff2f; /* Used for social icons on hover */
+  --color-text-main: #68b961; /* List text ann social icons on hover */
+  --color-primary: #68b961; /* Headers and borders */
+  --color-highlight: #68b961; /* Highlights */
 }
 
 /* Basic page style resets */
@@ -112,9 +112,9 @@ a:focus {
 .footer {
   display: flex;
   justify-content: space-between;
-  margin: 2rem auto 0;
-  padding: 1.5rem 0 0.5rem 0;
-  width: 100%;
+  margin: 0.01rem auto 0;
+  padding: 1.5rem 0 1.0rem 0;
+  width: 32%;
   flex-wrap: wrap;
   display: flex;
   justify-content: flex-end;
@@ -122,8 +122,8 @@ a:focus {
 a.remix {
   background: var(--color-bg-alt);
   color:var(--color-highlight);
-  border: 2px solid var(--color-highlight);
-  border-radius: 5px;
+  border: 1px solid var(--color-highlight);
+  border-radius: 0.1cqmax;
   padding:0.5rem;
   font-weight:bold;
 }
